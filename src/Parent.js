@@ -1,10 +1,22 @@
 import React from 'react'
 import { Child } from './Child'
 
-export const Parent = (props) => {
+export const Parent = () => {
     return (
         <div>
-            <Child name={props.name} />
+            <Child  />
         </div>
     )
 }
+
+
+// import React from 'react'
+// import { Child } from './Child'
+
+// export const Parent = (props) => {
+//     return (
+//         <div>
+//             <Child name={props.name} />
+//         </div>
+//     )
+// }

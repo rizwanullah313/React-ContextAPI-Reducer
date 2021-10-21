@@ -9,8 +9,8 @@ export const Schild = () => {
     return (
         
         <div>
-            This is a Second Child
-            <h1>This is </h1>
+            <h2>Counter Value is : {counterValue}</h2>
+            <button type="submit">Increment</button>
         </div>
     )
 }

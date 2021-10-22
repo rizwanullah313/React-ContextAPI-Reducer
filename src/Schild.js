@@ -9,8 +9,9 @@ export const Schild = () => {
     return (
         
         <div>
-            <h2>Counter Value is : {counterValue}</h2>
-            <button type="submit">Increment</button>
+            <h2>Counter Value is : {counterValue[0]}</h2>
+            <button type="submit" onClick={()=> {counterValue[1](++counterValue[0])}}>Increment</button>
+            <button type="submit" onClick={()=> {counterValue[1](--counterValue[0])}}>Decrement</button>
         </div>
     )
 }

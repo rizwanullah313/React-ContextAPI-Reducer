@@ -1,10 +1,14 @@
+import { useState } from 'react';
 import './App.css';
 import counterContext from './CounterContext';
 import { Parent } from './Parent';
 
 function App() {
+
+   let coustate =  useState(0);
+  // let [val, setVal] = useState(999);
   return (
-    <counterContext.Provider value={23}>
+    <counterContext.Provider value={coustate}>
     <div>
       <h1>ConextAPI</h1>
       <Parent/>

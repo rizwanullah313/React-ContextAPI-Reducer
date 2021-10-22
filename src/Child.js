@@ -1,4 +1,5 @@
 import React from 'react'
+import Childd from './s2Child';
 import { Schild } from './Schild'
 // import counterContext from './CounterContext';
 
@@ -11,6 +12,7 @@ export const Child = () => {
         <div>
             This is a First Child
             <Schild />
+            <Childd/>
         </div>
     )
 }

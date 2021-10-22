@@ -9,6 +9,7 @@ export const Schild = () => {
     return (
         
         <div>
+            <h2>Context API</h2>
             <h2>Counter Value is : {counterValue[0]}</h2>
             <button type="submit" onClick={()=> {counterValue[1](++counterValue[0])}}>Increment</button>
             <button type="submit" onClick={()=> {counterValue[1](--counterValue[0])}}>Decrement</button>
